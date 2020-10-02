@@ -1,0 +1,26 @@
+{
+    "name": "amidesfahani/nova-jalali-metrics",
+    "type": "project",
+    "description": "Jalali Date for Laravel Nova Metrics",
+    "keywords": [
+        "jalali",
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3",
+        "laravel/nova": "*",
+        "morilog/jalali": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amidesfahani\\NovaJalaliMetrics\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
