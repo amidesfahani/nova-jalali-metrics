@@ -1,6 +1,6 @@
 <?php
 
-namespace Amidesfahani\NovaJalaliMetrics\JalaliTrend;
+namespace Amidesfahani\NovaJalaliMetrics;
 
 use DateTime;
 use Carbon\Carbon;
